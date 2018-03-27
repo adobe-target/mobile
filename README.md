@@ -9,4 +9,4 @@ In this hands-on lab:
 * Integrate the SDK's Analytics for Target feature
 * Use lifecycle metrics, location, and custom data from Adobe Target, Adobe Analytics, and Adobe Audience Manager
 
-# [Start the Client Side Lab](https://github.com/adobe-target/mobile/wiki/Introduction)
+# [Start the Mobile Lab](https://github.com/adobe-target/mobile/wiki/Introduction)
