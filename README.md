@@ -1,4 +1,3 @@
-Please click on the Wiki tab in the navigation bar to begin.
 # L750 - Adobe Target for Mobile: Compelling Experiences That Engage & Convert
 ### [Registration Link](https://adobesummit.lanyonevents.com/2018/connect/sessionDetail.ww?SESSION_ID=6185)
 
