@@ -35,7 +35,7 @@
     
     // Set the member level as a mbox parameter
     NSDictionary *targetParams = [[NSDictionary alloc] initWithObjectsAndKeys:
-                                  randomLevel, @"memberLevel",
+                                  randomLevel, @"profile.memberLevel",
                                   nil];
     
      // Here 'a1-L750-xt' is the name of the location. This will show up in the content
