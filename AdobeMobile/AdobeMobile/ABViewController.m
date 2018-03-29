@@ -22,16 +22,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
-
 - (void)ABActivity
 {
-    // Here 'welcome-message-rp' is the name of the location. This will show up in the content
-    // location dropdown in the Target UI.
 
+/*
+    // Here 'a1-L750-ab' is the name of the location. This will show up in the content
+    // location dropdown in the Target UI.
     // Replace a1 with your unique user number.
     
-    ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"welcome-message-rp"
-                                                                        defaultContent:@"Hello there!"
+    ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"a1-L750-ab"
+                                                                        defaultContent:@"This is a button - CHANGE MY TEXT"
                                                                             parameters:nil];
     
     [ADBMobile targetLoadRequest:locationRequest callback:^(NSString *content){
@@ -44,9 +44,10 @@
         
     }];
 
+*/
     
 }
-
+ 
 -(void)ABActivityChanges: (NSString*) content
 {
     // Treat content as JSON-encoded string
@@ -72,12 +73,12 @@
     }
     
     if(imageSelect && [imageSelect isKindOfClass:[NSString class]]) {
-        if([imageSelect isEqualToString:@"image1"]) {
-            _imageView.image = [UIImage imageNamed:@"image1.png"];
-        } else if([imageSelect isEqualToString:@"image2"]) {
-            _imageView.image = [UIImage imageNamed:@"image2.png"];
-        } else if([imageSelect isEqualToString:@"image3"]) {
-            _imageView.image = [UIImage imageNamed:@"image3.png"];
+        if([imageSelect isEqualToString:@"canyon1"]) {
+            _imageView.image = [UIImage imageNamed:@"canyon1.jpg"];
+        } else if([imageSelect isEqualToString:@"canyon2"]) {
+            _imageView.image = [UIImage imageNamed:@"canyon2.jpg"];
+        } else if([imageSelect isEqualToString:@"canyon3"]) {
+            _imageView.image = [UIImage imageNamed:@"canyon3.jpg"];
         } else {
             // Do nothing.
         }

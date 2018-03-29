@@ -26,30 +26,21 @@
 
 - (void)XTActivity {
 
-    // Assign a random member level and reset user
-    NSArray *levels = [NSArray arrayWithObjects: @"silver", @"gold", @"sapphire", nil];
-    NSString *randomLevel = [levels objectAtIndex:arc4random()%[levels count]];
-    NSLog(@"Your member level is %@", randomLevel);
-    [ADBMobile targetClearCookies];
-    
-    // Set the member level as a mbox parameter
-    NSDictionary *targetParams = [[NSDictionary alloc] initWithObjectsAndKeys:
-                                  randomLevel, @"memberLevel",
-                                  nil];
-    
-     // Here 'a1-mobile-xt' is the name of the location. This will show up in the content
+/*
+     // Here 'a1-L750-at' is the name of the location. This will show up in the content
      // location dropdown in the UI.
 
     // Replace a1 with your unique user number.
 
-     ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"welcome-message-at"
+     ADBTargetLocationRequest* locationRequest = [ADBMobile targetCreateRequestWithName:@"a1-L750-at"
                                                                         defaultContent:@"Hello there!"
-                                                                            parameters:targetParams];
+                                                                            parameters:nil];
     
     [ADBMobile targetLoadRequest:locationRequest callback:^(NSString *content){
         [self performSelectorOnMainThread:@selector(ATActivityChanges:) withObject:content waitUntilDone:YES];
     }];
-    
+*/
+
 }
 -(void)ATActivityChanges: (NSString*) content {
     // Treat content as JSON-encoded string
@@ -83,12 +74,12 @@
     }
     
     if(imageSelect && [imageSelect isKindOfClass:[NSString class]]) {
-        if([imageSelect isEqualToString:@"image1"]) {
-            _imageView.image = [UIImage imageNamed:@"image1.png"];
-        } else if([imageSelect isEqualToString:@"image2"]) {
-            _imageView.image = [UIImage imageNamed:@"image2.png"];
-        } else if([imageSelect isEqualToString:@"image3"]) {
-            _imageView.image = [UIImage imageNamed:@"image3.png"];
+        if([imageSelect isEqualToString:@"river1"]) {
+            _imageView.image = [UIImage imageNamed:@"river1.jpg"];
+        } else if([imageSelect isEqualToString:@"river2"]) {
+            _imageView.image = [UIImage imageNamed:@"river2.jpg"];
+        } else if([imageSelect isEqualToString:@"river3"]) {
+            _imageView.image = [UIImage imageNamed:@"river3.jpg"];
         } else {
             // Do Nothing
         }

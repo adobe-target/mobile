@@ -8,11 +8,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--AB-->
         <scene sceneID="hNz-n2-bh7">
@@ -26,18 +21,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ABheader" translatesAutoresizingMaskIntoConstraints="NO" id="xVX-Jq-W8R">
-                                <rect key="frame" x="0.0" y="-17" width="375" height="369"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ab_default" translatesAutoresizingMaskIntoConstraints="NO" id="xVX-Jq-W8R">
+                                <rect key="frame" x="0.0" y="-17" width="375" height="635"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghs-nO-TtH">
-                                <rect key="frame" x="0.0" y="352" width="375" height="182"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97705024480819702" green="0.95333486795425415" blue="0.92802304029464722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">In this screen, we are running a simple A/B test. The container at the bottom is connected to a live test running in your account.  You can change the content of the test after the app is live in the app store and in the hands of your customers.                </string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGp-kC-VQo">
                                 <rect key="frame" x="0.0" y="534" width="375" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -320,18 +307,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="XTheader" translatesAutoresizingMaskIntoConstraints="NO" id="zcN-ze-6AF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="378"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xt_details" translatesAutoresizingMaskIntoConstraints="NO" id="zcN-ze-6AF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANN-vT-PRe">
-                                <rect key="frame" x="0.0" y="365" width="375" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97705024480819702" green="0.95333486795425415" blue="0.92802304029464722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">In this screen, we are running an XT or an experience targeting activity. The banner at the bottom changes based on the customer's profile.                                                                             We are randomly setting the user's account level to Silver, Gold or Sapphire and Target will show a different experience based on the account level.                 </string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnf-0o-j4y">
                                 <rect key="frame" x="0.0" y="502" width="375" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -383,22 +362,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="XTheader" translatesAutoresizingMaskIntoConstraints="NO" id="BSa-Dk-nPC">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="378"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="at_default" translatesAutoresizingMaskIntoConstraints="NO" id="BSa-Dk-nPC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ov3-Wf-u8d">
                                 <rect key="frame" x="0.0" y="510" width="375" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sah-Nl-hHR">
-                                <rect key="frame" x="0.0" y="372" width="375" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97705024480000002" green="0.953334868" blue="0.92802304030000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">In this screen, we are running an XT or an experience targeting activity. The banner at the bottom changes based on the customer's profile.                                                                             We are randomly setting the user's account level to Silver, Gold or Sapphire and Target will show a different experience based on the account level.                 </string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -551,10 +522,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ABheader" width="197" height="213"/>
         <image name="MboxHeader" width="315" height="242"/>
-        <image name="XTheader" width="250" height="250"/>
+        <image name="ab_default" width="1358" height="2048"/>
+        <image name="at_default" width="1125" height="2436"/>
         <image name="second" width="30" height="30"/>
+        <image name="xt_details" width="1125" height="2436"/>
     </resources>
     <color key="tintColor" red="0.27623716691266198" green="0.33570623998330645" blue="0.72336632013320923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
