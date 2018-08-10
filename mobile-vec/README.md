@@ -2,8 +2,8 @@
 Welcome to the private beta for Target Mobile VEC. Mobile VEC enables marketing teams to deploy experiments and personalize experiences using a WYSIWYG interface.
 
 Latest packages for download:  
-**Android Library**  
-**iOS Library**
+**[Android Library](https://github.com/adobe-target/mobile/raw/master/mobile-vec/AdobeTargetMobileVEC-Android.18.8.zip)**  
+**[iOS Library](https://github.com/adobe-target/mobile/raw/master/mobile-vec/AdobeTargetMobileVEC-iOS-18.8.zip)**
 
 ## Release Notes - 10th August, 2018
 ### Major Features
