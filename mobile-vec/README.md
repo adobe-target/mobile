@@ -1,8 +1,8 @@
 # Target Libraries for Mobile Visual Experience Composer
 Welcome to the private beta for Target Mobile VEC. Mobile VEC enables marketing teams to deploy experiments and personalize experiences using a WYSIWYG interface.
 
-Latest packages for download:
-**Android Library**
+Latest packages for download:  
+**Android Library**  
 **iOS Library**
 
 ## Release Notes - 10th August, 2018
