@@ -21,6 +21,7 @@ Latest packages for download:
 * Mid-tier URL is not required in the configs - available after August 22nd, 2018.
 * Reset authoring state when SDK config changes
 * Offers/notifications are not fired on second screen if offers/notifications are applied on landing screen
+* App is crashing when selector on which click-track is enabled is not present in dom
 
 ### iOS
 * Text formatting bugs: Font size during Authoring
