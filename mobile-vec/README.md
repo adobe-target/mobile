@@ -35,3 +35,9 @@ Latest packages for download:
 * Background color of the text was not working after setting a large font size
 * Underline and background color issue fixed
 * Collision of offers for activities with different priorities handled
+* Integrate alpha3 API changes for views
+* default color patch in background after applying offer
+* Notification call is triggered in case of default offer on a view
+* Decode and use Narada URL from authoring deeplink
+* Button label background color set to clear
+
