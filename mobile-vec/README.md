@@ -23,6 +23,13 @@ Latest packages for download:
 * Offers/notifications are not fired on second screen if offers/notifications are applied on landing screen
 * App is crashing when selector on which click-track is enabled is not present in dom
 
+### October minor release for Android
+
+* Fix SSL connection failing on pre-Lollipop devices by forcing TLS v1.2
+* Fix crash on Android Pie due to missing permission
+* Integrate latest alpha3 API version bump changes for views delivery API
+* Change view delivery API endpoint from v1alpha3 to v1beta1.
+
 ### iOS
 * Text formatting bugs: Font size during Authoring
 * Blank text action should not lead to inconsistent experience
