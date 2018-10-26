@@ -48,3 +48,5 @@ Latest packages for download:
 * Decode and use Narada URL from authoring deeplink
 * Button label background color set to clear
 
+#### October minor release for iOS
+* Change view delivery API endpoint from v1alpha3 to v1beta1.
