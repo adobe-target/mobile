@@ -2,7 +2,7 @@
 Welcome to the private beta for Target Mobile VEC. Mobile VEC enables marketing teams to deploy experiments and personalize experiences using a WYSIWYG interface.
 
 Latest packages for download:  
-**[Android Library](https://github.com/adobe-target/mobile/raw/master/mobile-vec/AdobeTargetMobileVEC-Android.18.8.zip)**  
+**[Android Library](https://github.com/adobe-target/mobile/raw/master/mobile-vec/AdobeTargetMobileVEC-Android.18.10.zip)**  
 **[iOS Library](https://github.com/adobe-target/mobile/raw/master/mobile-vec/AdobeTargetMobileVEC-iOS-18.8.zip)**
 
 ## Release Notes - 10th August, 2018
@@ -22,6 +22,13 @@ Latest packages for download:
 * Reset authoring state when SDK config changes
 * Offers/notifications are not fired on second screen if offers/notifications are applied on landing screen
 * App is crashing when selector on which click-track is enabled is not present in dom
+
+#### October minor release for Android
+
+* Fix SSL connection failing on pre-Lollipop devices by forcing TLS v1.2
+* Fix crash on Android Pie due to missing permission
+* Integrate latest alpha3 API version bump changes for views delivery API
+* Change view delivery API endpoint from v1alpha3 to v1beta1.
 
 ### iOS
 * Text formatting bugs: Font size during Authoring
